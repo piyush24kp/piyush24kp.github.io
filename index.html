@@ -178,6 +178,7 @@ section{padding:90px 0 80px}
 .proj-visual-1{background:linear-gradient(135deg,#1a1f35,#0d1117);border-bottom:1px solid var(--border)}
 .proj-visual-2{background:linear-gradient(135deg,#1a1535,#0d1117);border-bottom:1px solid var(--border)}
 .proj-visual-3{background:linear-gradient(135deg,#1a3520,#0d1117);border-bottom:1px solid var(--border)}
+.proj-visual-4{background:linear-gradient(135deg,#0f2a3d,#0d1117);border-bottom:1px solid var(--border)}
 .proj-arch{font-family:'Cascadia Code','Courier New',monospace;font-size:.65rem;color:rgba(255,255,255,.55);text-align:center;line-height:1.6;padding:.5rem;white-space:pre}
 .proj-arch .hl1{color:#60A5FA}
 .proj-arch .hl2{color:#A78BFA}
@@ -371,7 +372,7 @@ footer a{color:var(--blue);text-decoration:none}
         <div class="divider"></div>
         <p>I'm a <strong>Staff AI Engineer</strong> with 10 years of production engineering experience — spanning <strong>Gen AI</strong>, <strong>Data Science</strong>, and <strong>Java/Microservices Architecture</strong>.</p>
         <p>At <strong>Wipro</strong>, I lead AI engineering for HP's Managed Print Services — 5M+ devices, 50+ countries. I've shipped RAG pipelines, multi-agent LangGraph workflows, Mistral-7B fine-tuning, and full LLMOps observability. Before Gen AI, I built <strong>50,000+ TPS event-driven payment systems</strong> at ThoughtWorks and architected <strong>enterprise Java microservices</strong> serving 10K+ daily users at ValueLabs.</p>
-        <p>I build in public — 3 open-source AI projects on GitHub, all with real production benchmarks.</p>
+        <p>I build in public — 4 open-source AI projects on GitHub, all with real production benchmarks.</p>
         <div class="about-info">
           <div class="info-row"><span class="info-key">Location</span><span class="info-val">Pune, India (UTC+5:30)</span></div>
           <div class="info-row"><span class="info-key">Remote</span><span class="info-val">US · EU · Global open</span></div>
@@ -661,6 +662,35 @@ footer a{color:var(--blue);text-decoration:none}
               <span class="ptag">Python</span><span class="ptag">scikit-learn</span><span class="ptag">Groq</span><span class="ptag">FastAPI</span>
             </div>
             <a href="https://github.com/piyush24kp/intelligent-log-classifier" target="_blank" class="proj-link">GitHub ↗</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="proj-card reveal">
+        <div class="proj-visual proj-visual-4">
+          <pre class="proj-arch"><span class="hl1">Your App (OpenAI SDK)</span>
+     │
+     ▼
+<span class="hl2">[ FastAPI Gateway ]</span>
+  Auth · SSE streaming
+  Tool-sandbox guard
+     │
+     ▼
+<span class="hl2">[ Copilot SDK / CLI ]</span>
+  Ephemeral JSON-RPC session
+     │
+<span class="hl3">GitHub Copilot Models</span>
+  GPT · Claude · Gemini</pre>
+        </div>
+        <div class="proj-body">
+          <div class="proj-name">🌉 Copilot Gateway</div>
+          <p class="proj-desc">OpenAI-compatible local HTTP gateway backed by a GitHub Copilot subscription — any app built for the OpenAI SDK (chatbot, RAG pipeline, LangChain) runs on Copilot's models with just a <code>base_url</code> change, no code changes.</p>
+          <div class="proj-highlight">Drop-in OpenAI replacement · 47 automated tests · zero real API keys needed</div>
+          <div class="proj-footer">
+            <div class="proj-tags">
+              <span class="ptag">FastAPI</span><span class="ptag">Copilot SDK</span><span class="ptag">Python</span><span class="ptag">Pytest</span>
+            </div>
+            <a href="https://github.com/piyush24kp/copilot-gateway" target="_blank" class="proj-link">GitHub ↗</a>
           </div>
         </div>
       </div>
